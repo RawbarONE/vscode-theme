@@ -1,0 +1,93 @@
+{
+	"workbench.iconTheme": "vscode-icons",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"code-runner.runInTerminal": true,
+	"launch": {
+		"name": "Extension",
+		"type": "extensionHost",
+		"request": "launch",
+		"runtimeExecutable": "${execPath}",
+		"args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+		"outFiles": ["${workspaceFolder}/out/**/*.js"]
+	},
+	// "[python]": {
+	//     "editor.formatOnType": true
+	// },
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["support.variable"],
+				"settings": {
+					"foreground": "#6c9fc9"
+				}
+			},
+			{
+				"scope": ["string.quoted.docstring.multi"],
+				"settings": {
+					"foreground": "#646464"
+				}
+			},
+			{
+				"scope": ["comment"],
+				"settings": {
+					"foreground": "#646464"
+				}
+			},
+			{
+				"scope": ["constant.numeric"],
+				"settings": {
+					"foreground": "#b6ffbc"
+				}
+			},
+			{
+				"scope": ["string.quoted.other.lt-gt.include.c"],
+				"settings": {
+					"foreground": "#f5a031"
+				}
+			},
+			{
+				"scope": ["keyword.control"],
+				"settings": {
+					"foreground": "#4EC9B0"
+				}
+			},
+			{
+				"scope": ["string"],
+				"settings": {
+					"foreground": "#6A9955"
+				}
+			}
+		] //	keyword.control
+	},
+
+	"window.autoDetectHighContrast": false,
+	"files.autoSave": "onFocusChange",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.semanticTokenColorCustomizations": {
+	
+		"rules": {
+			"parameter": "#e4610a",
+			"comment": "#c6c2c2",
+			"variable": "#9cdcfe",
+			"class": "#00c7ce",
+			"module": "#ebb56e",
+			"function": "#DCDCAA",
+			"string": "#6A9955"
+		}
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"prettier.enableDebugLogs": true,
+	"prettier.useTabs": true,
+	"workbench.settings.openDefaultSettings": true,
+	"workbench.settings.editor": "ui",
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	"terminal.integrated.defaultProfile.linux": "bash"
+}
