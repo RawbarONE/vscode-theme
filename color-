@@ -3,6 +3,7 @@
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"code-runner.runInTerminal": true,
 	"launch": {
+		
 		"name": "Extension",
 		"type": "extensionHost",
 		"request": "launch",
@@ -56,8 +57,26 @@
 				"settings": {
 					"foreground": "#6A9955"
 				}
+			},
+			{
+				"scope": ["support.type.primitive.ts"],
+				"settings": {
+					"foreground": "#fabd4d"
+				}
+			},
+			{
+				"scope": ["entity.other.ng-binding-name.template.html"],
+				"settings": {
+					"foreground": "#c7c427"
+				}
+			},
+			{
+				"scope": ["variable.other.readwrite.alias.ts"],
+				"settings": {
+					"foreground": "#e4610a"
+				}
 			}
-		] //	keyword.control
+		] //	variable.other.readwrite.ts
 	},
 
 	"window.autoDetectHighContrast": false,
@@ -65,7 +84,6 @@
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.semanticTokenColorCustomizations": {
-	
 		"rules": {
 			"parameter": "#e4610a",
 			"comment": "#c6c2c2",
@@ -89,5 +107,12 @@
 		},
 		"editor.suggest.insertMode": "replace"
 	},
-	"terminal.integrated.defaultProfile.linux": "bash"
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"workbench.colorTheme": "Default Dark+ Experimental",
+	"emulator.emulatorPathWindows": "C:\\Users\\dravb\\AppData\\Local\\Android\\Sdk\\emulator",
+	"htmlhint.documentSelector": ["html", "htm"],
+	"indentRainbow.indicatorStyle": "light",
+	"indentRainbow.lightIndicatorStyleLineWidth": 8,
+	"indentRainbow.tabmixColor": "rgba(255, 214, 32, 0.9)",
+	"angular.forceStrictTemplates": true
 }
