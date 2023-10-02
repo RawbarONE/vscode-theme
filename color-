@@ -3,7 +3,6 @@
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"code-runner.runInTerminal": true,
 	"launch": {
-		
 		"name": "Extension",
 		"type": "extensionHost",
 		"request": "launch",
@@ -76,18 +75,17 @@
 					"foreground": "#e4610a"
 				}
 			}
-		] //	variable.other.readwrite.ts
+		] //	variable.other.readwrite.js
 	},
 
 	"window.autoDetectHighContrast": false,
 	"files.autoSave": "onFocusChange",
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.semanticTokenColorCustomizations": {
 		"rules": {
 			"parameter": "#e4610a",
 			"comment": "#c6c2c2",
-			"variable": "#9cdcfe",
+			// "variable": "#2fb6ff",
 			"class": "#00c7ce",
 			"module": "#ebb56e",
 			"function": "#DCDCAA",
@@ -95,7 +93,9 @@
 		}
 	},
 	"[python]": {
-		"editor.formatOnType": true
+		"editor.formatOnType": true,
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnSave": true
 	},
 	"prettier.enableDebugLogs": true,
 	"prettier.useTabs": true,
@@ -105,7 +105,8 @@
 		"editor.quickSuggestions": {
 			"strings": true
 		},
-		"editor.suggest.insertMode": "replace"
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"workbench.colorTheme": "Default Dark+ Experimental",
@@ -114,5 +115,19 @@
 	"indentRainbow.indicatorStyle": "light",
 	"indentRainbow.lightIndicatorStyleLineWidth": 8,
 	"indentRainbow.tabmixColor": "rgba(255, 214, 32, 0.9)",
-	"angular.forceStrictTemplates": true
+	"angular.forceStrictTemplates": true,
+	"python.defaultInterpreterPath": "C:\\Users\\dravb\\.virtualenvs\\lesson-0G17GHbQ\\Scripts\\python.exe",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	}
 }
