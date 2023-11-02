@@ -15,7 +15,7 @@
 	// },
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
-			{
+		{
 				"scope": ["support.variable"],
 				"settings": {
 					"foreground": "#6c9fc9"
@@ -74,8 +74,14 @@
 				"settings": {
 					"foreground": "#e4610a"
 				}
+			},
+			{
+				"scope": ["support.type.primitive.tsx"],
+				"settings": {
+					"foreground": "#fabd4d"
+				}
 			}
-		] //	variable.other.readwrite.js
+		] //support.type.primitive.tsx
 	},
 
 	"window.autoDetectHighContrast": false,
