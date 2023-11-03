@@ -80,6 +80,12 @@
 				"settings": {
 					"foreground": "#fabd4d"
 				}
+			},
+			{
+				"scope": ["support.class.component.tsx"],
+				"settings": {
+					"foreground": "#30b0c7"
+				}
 			}
 		] //support.type.primitive.tsx
 	},
