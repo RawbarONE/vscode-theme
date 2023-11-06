@@ -86,6 +86,12 @@
 				"settings": {
 					"foreground": "#30b0c7"
 				}
+			},
+			{
+				"scope": ["support.class.component.js"],
+				"settings": {
+					"foreground": "#30b0c7"
+				}
 			}
 		] //support.type.primitive.tsx
 	},
