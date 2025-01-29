@@ -1,5 +1,4 @@
 {
-	"workbench.iconTheme": "vscode-icons",
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"code-runner.runInTerminal": true,
 	"launch": {
@@ -15,7 +14,7 @@
 	// },
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
-		{
+			{
 				"scope": ["support.variable"],
 				"settings": {
 					"foreground": "#6c9fc9"
@@ -76,6 +75,12 @@
 				}
 			},
 			{
+				"scope": ["variable.other.readwrite.ts"],
+				"settings": {
+					"foreground": "#fabd4d"
+				}
+			},
+			{
 				"scope": ["support.type.primitive.tsx"],
 				"settings": {
 					"foreground": "#fabd4d"
@@ -92,18 +97,36 @@
 				"settings": {
 					"foreground": "#30b0c7"
 				}
+			},
+			{
+				"scope": ["variable.other.constant.property.tsx"],
+				"settings": {
+					"foreground": "#e7d128"
+				}
+			},
+			{
+				"scope": ["variable.other.constant.property.ts"],
+				"settings": {
+					"foreground": "#e7d128"
+				}
+			},
+			{
+				"scope": ["variable.other.constant.property.js"],
+				"settings": {
+					"foreground": "#e7d128"
+				}
 			}
-		] //support.type.primitive.tsx
+		] //support.class.component.tsx
 	},
 
 	"window.autoDetectHighContrast": false,
-	"files.autoSave": "onFocusChange",
+	"files.autoSave": "onWindowChange",
 	"editor.formatOnSave": true,
 	"editor.semanticTokenColorCustomizations": {
 		"rules": {
 			"parameter": "#e4610a",
 			"comment": "#c6c2c2",
-			// "variable": "#2fb6ff",
+			"variable": "#2fb6ff",
 			"class": "#00c7ce",
 			"module": "#ebb56e",
 			"function": "#DCDCAA",
@@ -127,14 +150,12 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"terminal.integrated.defaultProfile.linux": "bash",
-	"workbench.colorTheme": "Default Dark+ Experimental",
 	"emulator.emulatorPathWindows": "C:\\Users\\dravb\\AppData\\Local\\Android\\Sdk\\emulator",
 	"htmlhint.documentSelector": ["html", "htm"],
 	"indentRainbow.indicatorStyle": "light",
 	"indentRainbow.lightIndicatorStyleLineWidth": 8,
 	"indentRainbow.tabmixColor": "rgba(255, 214, 32, 0.9)",
 	"angular.forceStrictTemplates": true,
-	"python.defaultInterpreterPath": "C:\\Users\\dravb\\.virtualenvs\\lesson-0G17GHbQ\\Scripts\\python.exe",
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -147,5 +168,105 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
-	}
+	},
+	"git.autofetch": true,
+	"git.allowForcePush": true,
+	"git.useEditorAsCommitInput": false,
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+	"git.enableSmartCommit": true,
+	"terminal.integrated.env.windows": {},
+	"console-ninja.featureSet": "Community",
+	"liveshare.allowGuestTaskControl": true,
+	"liveshare.allowGuestDebugControl": true,
+	"liveshare.keepAliveInterval": -1,
+	"liveshare.languages.allowGuestCommandControl": true,
+	"cSpell.userWords": [
+		"agss",
+		"bacnet",
+		"Configurator",
+		"firestore",
+		"Hvac",
+		"infopanel",
+		"noordung",
+		"Palinko",
+		"readwrite",
+		"reduxjs",
+		"rgba"
+	],
+	"workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"colorize.include": [
+		"**/*.css",
+		"**/*.scss",
+		"**/*.sass",
+		"**/*.less",
+		"**/*.styl",
+		"**/*.jsx",
+		"**/*.tsx",
+		"**/*.ts",
+		"**/*.js"
+	],
+	"colorize.exclude": [
+		"**/.git",
+		"**/.svn",
+		"**/.hg",
+		"**/CVS",
+		"**/.DS_Store",
+		"**/.git",
+		"**/node_modules",
+		"**/bower_components",
+		"**/tmp",
+		"**/dist",
+		"**/tests"
+	],
+	"colorize.languages": [
+		"css",
+		"sass",
+		"scss",
+		"less",
+		"postcss",
+		"sss",
+		"stylus",
+		"xml",
+		"svg",
+		"jsx",
+		"tsx",
+		"js",
+		"ts"
+	],
+	"window.titleBarStyle": "custom",
+	"workbench.colorTheme": "Default Dark+",
+	"codeium.enableCodeLens": false,
+	"codium.editorButton": false,
+	"hediet.vscode-drawio.resizeImages": null,
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"codeium.enableConfig": {
+		"*": true,
+		"prisma": true
+	},
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"[dotenv]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"window.customTitleBarVisibility": "windowed",
+	"prisma.showPrismaDataPlatformNotification": false,
+	"accessibility.signals.terminalBell": {
+		"sound": "on"
+	},
+	"terminal.integrated.enableVisualBell": true,
+	"workbench.editor.empty.hint": "hidden",
+	"cSpell.customDictionaries": {},
+	"C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+	"editor.suggest.showValues": false,
+	"editor.suggest.showUnits": false
 }
