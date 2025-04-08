@@ -115,6 +115,36 @@
 				"settings": {
 					"foreground": "#e7d128"
 				}
+			},
+			{
+				"scope": ["variable.other.assignment.shell"],
+				"settings": {
+					"foreground": "#ffffff"
+				}
+			},
+			{
+				"scope": ["support.function.builtin.shell"],
+				"settings": {
+					"foreground": "#ec700b"
+				}
+			},
+			{
+				"scope": ["variable.other.normal.shell"],
+				"settings": {
+					"foreground": "#ffffff"
+				}
+			},
+			{
+				"scope": ["string.unquoted.heredoc.no-indent.EOF"],
+				"settings": {
+					"foreground": "#bbbbbb"
+				}
+			},
+			{
+				"scope": ["string.unquoted.argument.shell"],
+				"settings": {
+					"foreground": "#e4e00e"
+				}
 			}
 		] //support.class.component.tsx
 	},
@@ -186,6 +216,7 @@
 	"liveshare.languages.allowGuestCommandControl": true,
 	"cSpell.userWords": [
 		"agss",
+		"Anydesk",
 		"bacnet",
 		"Configurator",
 		"firestore",
@@ -268,5 +299,10 @@
 	"cSpell.customDictionaries": {},
 	"C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
 	"editor.suggest.showValues": false,
-	"editor.suggest.showUnits": false
+	"editor.suggest.showUnits": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"mobile-preview.device": "iPhone 15 Pro Max",
+	"glassit.alpha": 230,
+	"background.editorBackgrounds": ["c:/Users/dravb/Pictures/Wallpaper/**"],
+	"background.autoInstall": false
 }
